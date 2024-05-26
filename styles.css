@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px; /* Add margin between list items on larger screens */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #666;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  border: 1px solid #ccc; /* Add border to each link */
+  border-radius: 5px; /* Add border radius */
+}
+
+nav ul li a:hover {
+  background-color: #ddd;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+  nav ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0; /* Add margin between buttons */
+    border: 1px solid #ccc; /* Add border to each list item */
+    border-radius: 5px; /* Add border radius */
+  }
+
+  nav ul li a {
+    display: block;
+    width: calc(100% - 42px); /* Make the button full width */
+    padding: 10px 20px; /* Restore padding */
+  }
+}
+
+/* Additional styles for contact.html */
+.contact-container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact h1 {
+  color: #333;
+}
+
+.contact nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact nav ul li {
+  display: inline-block;
+  margin-right: 10px; /* Add margin between list items */
+}
+
+.contact nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
+}
+
+.contact nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #666;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  border: 1px solid #ccc; /* Add border to each link */
+  border-radius: 5px; /* Add border radius */
+}
+
+.contact nav ul li a:hover {
+  background-color: #ddd;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .contact nav ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact nav ul li {
+    display: block;
+    margin: 10px 0; /* Add margin between buttons */
+    border: none; /* Add border radius */
+  }
+
+  .contact nav ul li a {
+    display: block;
+    width: calc(100% - 42px); /* Make the button full width */
+    padding: 10px 20px; /* Restore padding */
+  }
+}
